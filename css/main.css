@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3, button, span{
+    font-family: Figtree;
+    font-weight: 800;
+}
+
+p{
+    font-size: 16px;
+    font-family: Figtree;
+    font-weight: 500;
+}
+
+
+body{
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    height: 522px;
+    width: 384px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 7px 7px black;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+article:hover{
+    box-shadow: 10px 10px black;
+    cursor: pointer;
+}
+
+.img{
+    width: 336px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: hsl(47, 88%, 63%);
+    border: 0;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 82px;
+    height: 29px;
+    margin-bottom: 13px;
+}
+
+.grey-paragraph{
+    color: hsl(0, 0%, 50%);
+    line-height: 25px;
+}
+
+span{
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.avatar{
+    width: 32px;
+    height: 32px;
+}
+
+.greg{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
