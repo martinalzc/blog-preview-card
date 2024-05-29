@@ -13,6 +13,7 @@ p{
     font-size: 16px;
     font-family: Figtree;
     font-weight: 500;
+    color: black;
 }
 
 
@@ -40,6 +41,7 @@ article{
 article:hover{
     box-shadow: 10px 10px black;
     cursor: pointer;
+    color: hsl(47, 88%, 63%);
 }
 
 .img{
@@ -66,6 +68,7 @@ button{
 span{
     font-size: 16px;
     padding-top: 8px;
+    color:black ;
 }
 
 .avatar{
@@ -78,4 +81,18 @@ span{
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+@media (max-width:375px){
+    article{
+        height: 501px;
+        width: 327px;
+    }
+    .img{
+        width: 279px;
+        height: 200px;
+    }
+    h1{
+        font-size: 20px;
+    }
 }
